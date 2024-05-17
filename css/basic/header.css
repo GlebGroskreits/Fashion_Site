@@ -3,6 +3,8 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 nav{
@@ -32,6 +34,66 @@ header > :first-child{
     margin-left: 100px;
 }
   
-header > :last-child{
+header > :nth-child(3){
     margin-right: 100px;
+}
+
+.burger-menu-icon{
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+.burger-menu-icon-line{
+    height: 2px;
+    width: 18px;
+    position: absolute;
+    border-radius: 2px;
+    background-color: black;
+    transition: all 1s;
+}
+
+.burger-menu-icon-line:nth-child(1){
+    transform: translateY(6px);
+}
+
+.burger-menu-icon-line:nth-child(2){
+    opacity: 1;
+}
+
+.burger-menu-icon-line:nth-child(3){
+    transform: translateY(-6px);
+}
+
+.burger-menu-icon.active .burger-menu-icon-line:nth-child(1){
+    transform: translateY(0px) rotate(45deg);
+}
+
+.burger-menu-icon.active .burger-menu-icon-line:nth-child(2){
+    opacity: 0;
+}
+
+.burger-menu-icon.active .burger-menu-icon-line:nth-child(3){
+    transform: translateY(0px) rotate(-45deg);
+}
+
+.burger-menu{
+    position: absolute;
+    top: 0;
+    right: -240px;
+    width: 240px;
+    height: fit-content;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    gap: 15px;
+}
+
+.burger-menu-line{
+    width: 180px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: black;
 }
