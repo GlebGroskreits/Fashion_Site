@@ -136,6 +136,50 @@ header > :nth-child(3){
     color: black; 
 }
 
+.dropdown{
+    position: absolute;
+    height: 200px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    background-color: #22262A;
+    align-items: center;
+    top: 80px;
+    left: -220px;
+    transition: all 1s;
+}
+
+.dropdown.active{
+    left: 0;
+}
+
+.dropdown > p:nth-child(1){
+    color: #FFFFFF;
+    margin: 10px 0 13px 0;
+}
+
+.dropdown > p:nth-child(2), .dropdown > p:nth-child(4){
+    color: #E99EA2;
+}
+
+.dropdown-line-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: fit-content;
+    margin: 8px 0 11px 0;
+}
+
+.dropdown-line-text > p:nth-child(1){
+    color: #6A2FBD;
+    text-decoration: underline;
+}
+
+.dropdown-line-text > p:nth-child(3){
+    color: #6A2FBD;
+}
+
 @media(max-width: 1059px){
     nav{
         display: none;
@@ -159,3 +203,4 @@ header > :nth-child(3){
         margin-left: 40px;
     }
 }
+
