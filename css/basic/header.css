@@ -1,0 +1,15 @@
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    height: fit-content;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
