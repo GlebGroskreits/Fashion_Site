@@ -113,6 +113,11 @@
     border-radius: 45px;
 }
 
+.advantages-box > p:nth-child(2){
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
 .advantages-box:nth-child(1) .advantages-box-icon{
     background-color: #6A2FBD;
 }
@@ -144,6 +149,13 @@
 
     .advantages{
         flex-direction: column;
+    }
+}
+
+@media(max-width: 768px){
+    .advantages{
+        padding: 0 0 50px 0;
+        width: 100%
     }
 }
 /*-----advantages-----*/
