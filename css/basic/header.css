@@ -1,9 +1,11 @@
 header{
     min-height: 80px;
+    max-width: 1440px;
     height: fit-content;
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: relative;
     overflow-x: clip;
 }
@@ -33,6 +35,7 @@ nav{
 header > :first-child{
     letter-spacing: 0.7px;
     margin-left: 100px;
+    width: 180px;
 }
   
 header > :nth-child(3){
@@ -44,6 +47,7 @@ header > :nth-child(3){
     width: 30px;
     position: relative;
     display: none;
+    margin-right: 40px;
 }
 
 .burger-menu-icon-line{
@@ -94,7 +98,7 @@ header > :nth-child(3){
     padding: 15px 0;
     gap: 15px;
     background-color: #FFFFFF;
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
     z-index: 100;
 }
 
@@ -130,4 +134,28 @@ header > :nth-child(3){
 
 .burger-menu p{
     color: black; 
+}
+
+@media(max-width: 1059px){
+    nav{
+        display: none;
+    }
+
+    .header-functional{
+        margin-left: auto;
+    }
+
+    .burger-menu-icon{
+        display: flex;
+    }
+}
+
+@media(max-width: 599px){
+    .header-functional{
+        display: none;
+    }
+
+    header > :first-child{
+        margin-left: 40px;
+    }
 }

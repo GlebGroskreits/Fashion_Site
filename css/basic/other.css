@@ -4,7 +4,6 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 main{
@@ -16,4 +15,5 @@ main{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    background-color: brown;
 }
