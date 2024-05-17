@@ -1,3 +1,73 @@
+/*-----hello-----*/
+.hello{
+    padding: 30px 100px 0 100px;
+    width: calc(100% - 200px);
+    height: fit-content;
+    background-color: #E7F5F8;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hello > img{
+    width: 565px;
+    height: 570px;
+}
+
+.hello-text{
+    width: 320px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hello-text > p:nth-child(2){
+    letter-spacing: 1.3px;
+}
+
+.hello-text > p:nth-child(3){
+    letter-spacing: 0.1px;
+}
+
+
+.button-home{
+    width: 150px;
+    height: 35px;
+    background-color: #22262A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-home > p{
+    color: #FFFFFF;
+}
+
+@media(max-width: 1144px){
+    .hello{
+        padding: 30px 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hello-text{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width: 585px){
+    .hello > img{
+        width: 320px;
+        height: 300px;
+    }
+}
+/*-----hello-----*/
+
+/*-----advantages-----*/
 .advantages{
     padding: 0 100px 50px 100px;
     height: fit-content;
@@ -76,3 +146,4 @@
         flex-direction: column;
     }
 }
+/*-----advantages-----*/
