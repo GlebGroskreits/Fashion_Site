@@ -3,7 +3,6 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 nav{
@@ -12,4 +11,27 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: calc(50% - 150px - 130px - 100px);
+    margin-left: calc(50% - 150px - 180px - 100px);
+}
+
+.header-functional{
+    height: fit-content;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-functional > img{
+    height: 20px;
+    width: 20px;
+}
+
+header > :first-child{
+    letter-spacing: 0.7px;
+    margin-left: 100px;
+}
+  
+header > :last-child{
+    margin-right: 100px;
 }
