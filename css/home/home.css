@@ -269,15 +269,14 @@
         width: calc(100% - 60px);
 
         .about-contant-box{
-            height: fit-content;
-            padding: 42px 0;
+            height: 420px;
         }
     }
 }
 
 @media(max-width: 539px){
     .about{
-        gap: 38px;
+        gap: 20px;
     }
     
     .about-contant:nth-child(2) > :first-child{
