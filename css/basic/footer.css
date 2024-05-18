@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    max-width: 1280px;
+    width: 100%;
+    height: fit-content;
+    padding: 120px 100px 95pxx 100px;
+    gap: 140px;
+    justify-content: center;
+}
+
+.footer-log{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
