@@ -182,7 +182,8 @@
 
 .about-contant-box{
     height: 320px;
-    width: 480px;
+    max-width: 480px;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -190,7 +191,7 @@
 .about-contant-text{
     display: flex;
     height: fit-content;
-    width: 480px;
+    max-width: 480px;
     height: fit-content;
     flex-direction: column;
     gap: 15px;
@@ -208,11 +209,12 @@
 
 .about-contant-image{
     height: fit-content;
-    width: 480px;
+    max-width: 480px;
     display: flex;
     gap: 20px;
     align-items: end;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .about-contant:nth-child(2) .about-contant-image{
@@ -262,6 +264,28 @@
 }
 
 @media(max-width: 767px){
+    .about{
+        padding: 0 30px;
+        width: calc(100% - 60px);
 
+        .about-contant-box{
+            height: fit-content;
+            padding: 42px 0;
+        }
+    }
+}
+
+@media(max-width: 539px){
+    .about{
+        gap: 38px;
+    }
+    
+    .about-contant:nth-child(2) > :first-child{
+        order:2;
+    }
+    
+    .about-contant:nth-child(2) > :last-child{
+        order: 1;
+    }
 }
 /*-----about-----*/
