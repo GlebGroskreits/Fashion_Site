@@ -339,6 +339,137 @@
     top: 10px;
     left: 290px;
 }
-
-
 /*---modal windows---*/
+
+/*-----rewievs-----*/
+.rewievs{
+    height: fit-content;
+    padding: 30px 100px;
+    width: calc(100% - 200px);
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rewievs-header{
+    width: 100%;
+    height: 40px;
+    background-color: #22262A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.rewievs-header > p{
+    letter-spacing: 1.4px;
+    margin-right: 6px;
+}
+
+.box-slider{
+    height: fit-content;
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.rewievs-contant{
+    max-width: 500px;
+    width: 100%;
+    height: 218px;
+    display: flex;
+    gap: 40px;
+    background-color: #f2d7da;
+    border-radius: 30px;
+}
+
+.rewievs-contant-circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background-color: #666161;
+    margin: 40px 0 0 40px;
+}
+
+.rewievs-contant-text{
+    height: fit-content;
+    max-width: 310px;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.rewievs-contant-text > p{
+    line-height: 32px;
+}
+
+.rewievs-contant-text > p:last-child{
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: 32px;
+}
+
+.rewievs-navigation{
+    display: flex;
+    height: 10px;
+    width: 200px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rewievs-btn-left > p, .rewievs-btn-right > p{
+    line-height: 10px;
+}
+
+ol > li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+li.active{
+    background-color: #000000;
+}
+
+@media(max-width: 767px){
+    .rewievs{
+        padding: 30px 30px;
+        width: calc(100% - 60px);
+    }
+
+    .rewievs-contant{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .rewievs-contant-circle{
+        margin: 19px 0 20px 0;
+    }
+
+    .rewievs-contant-text{
+        width: calc(100% - 20px);
+        text-align: center;
+        margin: 0;
+        margin-bottom: 62px;
+    }
+
+    .rewievs-contant{
+        height: fit-content;
+    }
+}
+/*-----rewievs-----*/
