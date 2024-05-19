@@ -10,19 +10,25 @@ footer{
 }
 
 .footer-container{
-    max-width: 1280px;
-    width: 100%;
+    max-width: 1080px;
+    width: calc(100% - 200px);
     height: fit-content;
-    padding: 120px 100px 95pxx 100px;
+    padding: 120px 100px 95px 100px;
     gap: 140px;
     justify-content: center;
+    display: flex;
 }
 
 .footer-left-container{
     height: fit-content;
     width: 100%;
+    max-width: 410px;
     display: flex;
     flex-direction: column;
+}
+
+.footer-left-container > p:nth-child(1){
+    letter-spacing: 0.5px;
 }
 
 .footer-left-container > p:nth-child(2){
@@ -54,6 +60,70 @@ footer{
 .footer-left-container-link > img{
     height: 15px;
     width: 15px;
+}
+
+.footer-right-container{
+    height: fit-content;
+    width: 100%;
+    max-width: 530px;
+}
+
+.footer-right-container > p:nth-child(1){
+    letter-spacing: 0.7px;
+}
+
+.footer-right-container-input{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin: 32px 0 75px 0;
+}
+
+.footer-right-container-input input{
+    border: 0;
+    outline: 0;
+    height: 45px;
+    width: calc(100% - 27px);
+    background-color: none;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+.footer-right-container input::placeholder {
+    color: #000000;
+}
+
+.footer-right-container-input > p{
+    position: absolute;
+    top: 11px;
+    right: 26px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.footer-right-container-text{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-right-container-text > :nth-child(2){
+    margin-left: 25px;
+}
+
+.footer-right-container-text-contant{
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.footer-right-container-text-contant > p:first-child{
+    font-weight: 700;
+    margin-bottom: 1px;
 }
 
 .footer-log{
