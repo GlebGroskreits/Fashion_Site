@@ -22,6 +22,9 @@ window.addEventListener('DOMContentLoaded', function() {
     theme.href = theme.href.replace("dark", "light");
     localStorage.setItem('Theme', "light");
   }
+
+  seticontheme();
+
 });
 
 function setDark(){
@@ -50,4 +53,29 @@ function changeTheme(){
     }
 
     location.reload();
+}
+
+const footer = document.querySelector('.footer-left-container-link');
+const icon_footer = footer.querySelectorAll('img');
+
+function seticontheme(){
+  const theme = localStorage.getItem('Theme');
+
+  if(theme === 'dark'){
+    icon_themeBtn[0].src = "../image/basic/language_black.svg";
+    icon_themeBtn[1].src = "../image/basic/theme_black.svg";
+    icon_themeBtn[2].src = "../image/basic/logout_black.svg";
+
+    icon_footer[0].src = "../image/basic/telephone_black.svg"
+    icon_footer[1].src = "../image/basic/github_black.svg"
+    icon_footer[2].src = "../image/basic/pochta_black.svg"
+  }else{
+    icon_themeBtn[0].src = "../image/basic/languageh.svg";
+    icon_themeBtn[1].src = "../image/basic/themeh.svg";
+    icon_themeBtn[2].src = "../image/basic/logout.svg";
+
+    icon_footer[0].src = "../image/basic/ftelephone.svg";
+    icon_footer[1].src = "../image/basic/fgtihub.svg";
+    icon_footer[2].src = "../image/basic/fpochta.svg";
+  }
 }
