@@ -58,6 +58,9 @@ function changeTheme(){
 const footer = document.querySelector('.footer-left-container-link');
 const icon_footer = footer.querySelectorAll('img');
 
+const burger_menu = document.querySelector('.burger-menu');
+const icon_logout = burger_menu.querySelector('img');
+
 function seticontheme(){
   const theme = localStorage.getItem('Theme');
 
@@ -66,6 +69,8 @@ function seticontheme(){
     icon_themeBtn[1].src = "../image/basic/theme_black.svg";
     icon_themeBtn[2].src = "../image/basic/logout_black.svg";
 
+    icon_logout.src = "../image/basic/logout_lack.svg";
+
     icon_footer[0].src = "../image/basic/telephone_black.svg"
     icon_footer[1].src = "../image/basic/github_black.svg"
     icon_footer[2].src = "../image/basic/pochta_black.svg"
@@ -73,6 +78,8 @@ function seticontheme(){
     icon_themeBtn[0].src = "../image/basic/languageh.svg";
     icon_themeBtn[1].src = "../image/basic/themeh.svg";
     icon_themeBtn[2].src = "../image/basic/logout.svg";
+
+    icon_logout.src = "../image/basic/logout.svg";
 
     icon_footer[0].src = "../image/basic/ftelephone.svg";
     icon_footer[1].src = "../image/basic/fgtihub.svg";
