@@ -1,0 +1,50 @@
+body, .footer-right-container-input{
+    background-color: #22262A; /*#22262A*/
+}
+
+.hello{
+    background-color: #5F696B; /*#5F696B*/
+}
+
+.burger-menu-line, 
+.button-home, .rewievs-header, li.active,
+.footer-left-container-line, .footer-left-container-line{
+    background-color: #FFFFFF;
+}
+
+ol > li{
+    border: 1px solid #FFFFFF;
+}
+
+.button-home > p, .rewievs-header{
+    color: #22262A;
+}
+
+header > p:nth-child(1), nav > a > p, .burger-menu > a, .burger-menu-double > p,
+.hello-text > p, .advantages-box > p,
+.about-contant-text > p, .rewievs-contant-text > p,
+.rewievs-btn-left > p, .rewievs-btn-right > p, 
+.footer-right-container > p, .footer-right-container-text-contant > p,
+.footer-left-container > p, .footer-log > p{
+    color: #FFFFFF;
+}
+
+.rewievs-contant{
+    background-color: #B19E9E; /*B19E9E*/
+}
+
+footer{
+    background-color: #3D4546;/*#3D4546*/
+}
+
+.footer-log{
+    background-color: #313838; /*313838*/
+}
+
+.burger-menu{
+    background: linear-gradient(
+        to bottom,
+        rgb(0, 0, 0) 0%,
+        hsla(0, 0%, 0%, 0.7) 100%
+    );
+}
