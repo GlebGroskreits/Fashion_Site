@@ -5,7 +5,6 @@ footer{
     height: fit-content;
     align-items: center;
     justify-content: center;
-    background-color: #F2F8FC;
     max-width: 1440px;
 }
 
@@ -48,7 +47,6 @@ footer{
 .footer-left-container-line{
     width: 237px;
     height: 1px;
-    background-color: #000000;
 }
 
 .footer-left-container-link{
