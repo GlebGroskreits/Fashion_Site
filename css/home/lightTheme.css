@@ -6,7 +6,7 @@ body, .footer-right-container-input{
     background-color: #E7F5F8; /*#5F696B*/
 }
 
-.burger-menu-line, 
+.burger-menu-line, .burger-menu-icon-line,
 .button-home, .rewievs-header, li.active,
 .footer-left-container-line, .footer-left-container-line{
     background-color: #22262A;

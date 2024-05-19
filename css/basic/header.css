@@ -63,7 +63,6 @@ header > :nth-child(3){
     top: 0;
     left: 6px;
     border-radius: 2px;
-    background-color: black;
     transition: all 1s;
 }
 
@@ -116,7 +115,6 @@ header > :nth-child(3){
     width: 180px;
     height: 2px;
     border-radius: 2px;
-    background-color: black;
 }
 
 .burger-menu-double{
@@ -138,13 +136,7 @@ header > :nth-child(3){
 }
 
 .burger-menu a{
-    text-decoration: none;
-    color: black;
-    
-}
-
-.burger-menu p{
-    color: black; 
+    text-decoration: none;    
 }
 
 .dropdown{
