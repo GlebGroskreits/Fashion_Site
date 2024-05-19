@@ -14,9 +14,10 @@ footer{
     width: calc(100% - 200px);
     height: fit-content;
     padding: 120px 100px 95px 100px;
-    gap: 140px;
-    justify-content: center;
+    gap: 40px;
+    justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-left-container{
@@ -104,6 +105,7 @@ footer{
 .footer-right-container-text{
     height: fit-content;
     width: 100%;
+    max-width: 530px;
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -137,4 +139,21 @@ footer{
 
 .footer-log > p{
     letter-spacing: 0.1px;
+}
+
+@media(max-width: 1179px){
+    .footer-container{
+        padding: 75px 100px 95px 100px;
+    }
+
+    .footer-right-container{
+        max-width: 100%;
+    }
+
+    .footer-right-container-input{
+        position: relative;
+        height: 45px;
+        width: calc(100% - 38px);
+        margin: 32px 0 75px 0;
+    }
 }
