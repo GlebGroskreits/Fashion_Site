@@ -134,3 +134,7 @@ footer{
     justify-content: center;
     background-color: #E7F5F8;
 }
+
+.footer-log > p{
+    letter-spacing: 0.1px;
+}
