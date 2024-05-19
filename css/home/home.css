@@ -433,6 +433,7 @@
 
 .rewievs-btn-left > p, .rewievs-btn-right > p{
     line-height: 10px;
+    cursor: pointer;
 }
 
 ol > li{
@@ -443,6 +444,7 @@ ol > li{
     height: 8px;
     border: 1px solid #000000;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 li.active{
