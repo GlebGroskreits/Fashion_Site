@@ -54,8 +54,10 @@ function changeThemeIcon(){
 
     if(savedLanguge === 'en'){
         localStorage.setItem('Language', 'ru');
+        location.reload();
     }
     else{
         localStorage.setItem('Language', 'en');
+        location.reload();
     }
 }

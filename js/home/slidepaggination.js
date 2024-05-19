@@ -1,14 +1,32 @@
 var slidepag;
+var path;
 
-fetch('../js/home/slidepag.json')
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('ошибка в fetch: ' + response.statusText);
+window.addEventListener('DOMContentLoaded', function() {
+    const savedLanguage = localStorage.getItem('Language');
+    console.log('lan');
+    if(savedLanguage === 'ru'){
+        path = "../js/home/slidepagRU.json";
     }
-    return response.json();
-  })
-.then(jsonData => {slidepag = jsonData;})
-.catch(error => console.error('Ошибка', error));
+    else{
+        path = "../js/home/slidepag.json";
+    }
+
+    fetch(path)
+    .then(response => {
+        if (!response.ok) {
+        throw new Error('ошибка в fetch: ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(jsonData => {slidepag = jsonData;})
+    .catch(error => console.error('Ошибка', error));
+
+    setTimeout(function() {
+        slideBtnLeft.click();
+        slideBrnRight.click();
+      }, 400);
+});
+
 
 const rewievs = document.querySelector('.rewievs');
 
