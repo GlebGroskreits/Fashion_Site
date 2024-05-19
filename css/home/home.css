@@ -78,6 +78,10 @@
     justify-content: center;
 }
 
+.advantages.noactive{
+    display: none;
+}
+
 .advantages-box{
     width: 260px;
     height: 150px;

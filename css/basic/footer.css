@@ -141,6 +141,18 @@ footer{
     letter-spacing: 0.1px;
 }
 
+.footer-log > p:last-child{
+    display: none;
+}
+
+.footer-log > p:first-child.noactive{
+    display: none;
+}
+
+.footer-log > p:last-child.active{
+    display: flex;
+}
+
 @media(max-width: 1179px){
     .footer-container{
         padding: 75px 100px 95px 100px;
@@ -206,5 +218,13 @@ footer{
     .footer-log > p{
         max-width: 280px;
         text-align: center;
+    }
+    
+    .footer-log > p:first-child{
+        max-width: 288px;
+    }
+
+    .footer-log > p:last-child{
+        max-width: 295px;
     }
 }
