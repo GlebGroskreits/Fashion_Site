@@ -1,0 +1,40 @@
+/*-----hello-----*/
+.hello{
+    padding: 30px 100px 0 100px;
+    width: calc(100% - 200px);
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hello > img{
+    width: 600px;
+    height: 530px;
+}
+
+.hello-container-text{
+    width: 320px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hello-container-double-button{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+}
+
+.button-home{
+    width: 150px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*-----hello-----*/
