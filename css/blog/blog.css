@@ -105,5 +105,22 @@
         margin: 0 22px;
         letter-spacing: 3px;
     }
+
+    .events-card:nth-child(2) > :first-child{
+        margin: 0 15px;
+        letter-spacing: 2px;
+    }
+
+    .events-card:nth-child(3) > :first-child{
+        margin: 0 14px;
+        letter-spacing: 2px;
+    }
+
+    @media(max-width: 767px){
+        .events{
+            padding: 60px 0;
+            width: 100%;
+        }
+    }
 /*-----events-----*/
 
