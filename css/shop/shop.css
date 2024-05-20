@@ -275,4 +275,32 @@
 .hello-two-text-container > .button-home{
     width: 215px;
 }
+
+@media(max-width: 1048px){
+    .hello-two{
+        padding: 30px 100px 30px 100px;
+    }
+
+    .hello-two-text-container > :nth-child(2){
+        margin-top: -5px;
+    }
+}
+
+@media(max-width: 767px){
+    .hello-two{
+        padding: 30px 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hello-two > img{
+        width: 320px;
+        height: 300px;
+    }
+
+    .hello-two-text-container{
+        align-items: center;
+        text-align: center;
+    }
+}
 /*-----hello-two-----*/
