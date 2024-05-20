@@ -2,35 +2,17 @@ body, .footer-right-container-input{
     background-color: #FFFFFF; /*#22262A*/
 }
 
-.hello{
-    background-color: #E7F5F8; /*#5F696B*/
-}
-
 .burger-menu-line, .burger-menu-icon-line,
-.button-home, .rewievs-header, li.active,
+.point-card-box > div,
 .footer-left-container-line, .footer-left-container-line{
     background-color: #22262A;
 }
 
-ol > li{
-    border: 1px solid #000000;
-}
-
-.button-home > p, .rewievs-header{
-    color: #FFFFFF;
-}
 
 header > p:nth-child(1), nav > a > p, .burger-menu > a, .burger-menu-double > p,
-.hello-text > p, .advantages-box > p,
-.about-contant-text > p, .rewievs-contant-text > p,
-.rewievs-btn-left > p, .rewievs-btn-right > p, 
 .footer-right-container > p, .footer-right-container-text-contant > p,
 .footer-left-container > p, .footer-log > p{
     color: #22262A;
-}
-
-.rewievs-contant{
-    background-color: #f2d7da; /*B19E9E*/
 }
 
 footer{
