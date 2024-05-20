@@ -75,3 +75,22 @@
     }
 }
 /*-----hello-----*/
+
+/*-----categories------*/
+    .categories{
+        padding: 30px 75px;
+        width: calc(100% - 150px);
+        height: fit-content;
+        display: flex;
+        gap: 20px;
+    }
+
+    .categories-header{
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+    }
+/*-----categories------*/
