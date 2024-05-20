@@ -1,0 +1,32 @@
+body, .footer-right-container-input{
+    background-color: #FFFFFF; /*#22262A*/
+}
+
+.burger-menu-line, .burger-menu-icon-line,
+.footer-left-container-line, .footer-left-container-line{
+    background-color: #22262A;
+}
+
+header > p:nth-child(1), nav > a > p, .burger-menu > a, .burger-menu-double > p,
+.footer-right-container > p, .footer-right-container-text-contant > p,
+.footer-left-container > p, .footer-log > p{
+    color: #22262A;
+}
+
+footer{
+    background-color: #F2F8FC;/*#3D4546*/
+}
+
+.footer-log{
+    background-color: #E7F5F8; /*313838*/
+}
+
+.burger-menu{
+    background: linear-gradient(
+        to bottom,
+        hsla(0, 0%, 100%, 1) 0%,
+        hsla(0, 0%, 100%, 0.7) 100%
+    );
+}
+
+
