@@ -114,3 +114,33 @@
     }
 }
 /*-----point-----*/
+
+/*-----group-----*/
+.group{
+    padding: 60px 100px;
+    width: calc(100% - 200px);
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-card{
+    width: 315px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 767px){
+    .group{
+        flex-direction: column;
+        width: 100%;
+        padding: 60px 0;
+    }
+}
+/*-----group-----*/
