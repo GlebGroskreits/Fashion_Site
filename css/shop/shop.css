@@ -241,3 +241,38 @@
     }
 }
 /*-----my-shop-----*/
+
+/*-----hello-two-----*/
+.hello-two{
+    height: fit-content;
+    padding: 30px 100px 0 100px;
+    width: calc(100% - 200px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.hello-two > img{
+    width: 469px;
+    height: 445px;
+}
+
+.hello-two-text-container{
+    width: 320px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hello-two-text-container > :nth-child(2){
+    margin-top: -4px;
+    letter-spacing: 1.4px;
+}
+
+.hello-two-text-container > .button-home{
+    width: 215px;
+}
+/*-----hello-two-----*/
