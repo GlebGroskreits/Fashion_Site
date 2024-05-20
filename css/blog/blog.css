@@ -1,3 +1,4 @@
+/*-----hello-----*/
 .hello{
     padding: 60px 100px;
     width: calc(100% - 200px);
@@ -27,6 +28,7 @@
 
 .hello > :nth-child(5){
     margin-top: 16px;
+    line-height: 27px;
 }
 
 .button-home{
@@ -43,3 +45,65 @@
         width: calc(100% - 20px);
     }
 }
+/*-----hello-----*/
+
+/*-----events-----*/
+    .events{
+        padding: 60px 100px;
+        width: calc(100% - 200px);
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .events-card{
+        height: 110px;
+        width: 568px;
+        display: flex;
+        align-items: center;
+    }
+
+    .events-card:nth-child(2){
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .events-card:nth-child(3){
+        margin-left: auto;
+    }
+
+    .events-card-line{
+        width: 2px;
+        height: 80px;
+        margin-right: 24px;
+    }
+
+    .events-card-double-text{
+        height: 78px;
+        width: 190px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .events-card > img{
+        height: 70px;
+        width: 70px;
+        margin-right: 35px;
+        margin-left: auto;
+    }
+
+    .events-card-double-text > :nth-child(1){
+        letter-spacing: 0.2px;
+    }
+
+    .events-card-double-text > :nth-child(2){
+        line-height: 24px;
+    }
+
+    .events-card:nth-child(1) > :first-child{
+        margin: 0 22px;
+        letter-spacing: 3px;
+    }
+/*-----events-----*/
+
