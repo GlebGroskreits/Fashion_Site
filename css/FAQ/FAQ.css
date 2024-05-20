@@ -144,3 +144,29 @@
     }
 }
 /*-----group-----*/
+
+/*-----choose-----*/
+.choose{
+    padding: 30px 100px;
+    width: calc(100% - 200px);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-header{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+    width: 100%;
+    height: fit-content;
+}
+
+.choose-header > :nth-child(1){
+    font-weight: 600;
+}
+/*-----choose-----*/
