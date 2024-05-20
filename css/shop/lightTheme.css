@@ -7,16 +7,17 @@ body, .footer-right-container-input{
 }
 
 .burger-menu-line, .burger-menu-icon-line,
-.hello-container-text > p, .button-home,
+.button-home, .categories-header,
 .footer-left-container-line, .footer-left-container-line{
     background-color: #22262A;
 }
 
-.button-home > p{
+.button-home > p, .categories-header > p{
     color: #FFFFFF;
 }
 
 header > p:nth-child(1), nav > a > p, .burger-menu > a, .burger-menu-double > p,
+.hello-container-text > p,
 .footer-right-container > p, .footer-right-container-text-contant > p,
 .footer-left-container > p, .footer-log > p{
     color: #22262A;
