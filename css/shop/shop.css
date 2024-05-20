@@ -95,6 +95,10 @@
         gap: 7px;
     }
 
+    .categories-header > img{
+        cursor: pointer;
+    }
+
     .categories-container{
         width: 100%;
         height: fit-content;
