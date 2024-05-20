@@ -171,6 +171,12 @@
     font-weight: 600;
 }
 
+.choose-header > :nth-child(2){
+    max-width: 320px;
+    text-align: center;
+    line-height: 32px;
+}
+
 .choose-cards{
     padding: 33px 0;
     width: 100%;
@@ -179,7 +185,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 75px 30px;
+    gap: 30px 75px ;
 }
 
 .choose-card{
@@ -206,5 +212,17 @@
 .choose-card > :nth-child(3){
     max-width: 225px;
     text-align: center;
+    line-height: 32px;
+}
+
+@media(max-width: 767px){
+    .choose{
+        padding: 30px 0px;
+        width: 100%;
+    }
+
+    .choose-cards{
+        flex-direction: column;
+    }
 }
 /*-----choose-----*/
