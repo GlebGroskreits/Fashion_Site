@@ -7,30 +7,22 @@ body, .footer-right-container-input{
 }
 
 .burger-menu-line, .burger-menu-icon-line,
-.button-home, .rewievs-header, li.active,
+.point-card-box > div, .group-card,
 .footer-left-container-line, .footer-left-container-line{
     background-color: #FFFFFF;
 }
 
-ol > li{
-    border: 1px solid #FFFFFF;
-}
 
-.button-home > p, .rewievs-header{
+.group-card > p{
     color: #22262A;
 }
 
 header > p:nth-child(1), nav > a > p, .burger-menu > a, .burger-menu-double > p,
-.hello-text > p, .advantages-box > p,
-.about-contant-text > p, .rewievs-contant-text > p,
-.rewievs-btn-left > p, .rewievs-btn-right > p, 
+.point-card-text > p, .choose-header > p,
+.where-header > p,
 .footer-right-container > p, .footer-right-container-text-contant > p,
 .footer-left-container > p, .footer-log > p{
     color: #FFFFFF;
-}
-
-.rewievs-contant{
-    background-color: #B19E9E; /*B19E9E*/
 }
 
 footer{
@@ -48,3 +40,5 @@ footer{
         hsla(0, 0%, 0%, 0.7) 100%
     );
 }
+
+
