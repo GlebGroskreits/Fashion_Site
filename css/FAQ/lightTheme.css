@@ -18,7 +18,7 @@ body, .footer-right-container-input{
 }
 
 header > p:nth-child(1), nav > a > p, .burger-menu > a, .burger-menu-double > p,
-.point-card-text > p, .choose-header > p,
+.point-card-text > p, .choose-header > p, .choose-card > p,
 .footer-right-container > p, .footer-right-container-text-contant > p,
 .footer-left-container > p, .footer-log > p{
     color: #22262A;
