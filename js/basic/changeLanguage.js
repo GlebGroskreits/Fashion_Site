@@ -45,6 +45,7 @@ function loadLanguage() {
   }
 
   for (let key in languageArray) {
+    console.log('.lng-' + key)
     document.querySelector('.lng-' + key).innerHTML = languageArray[key][hash];
   }
 }
