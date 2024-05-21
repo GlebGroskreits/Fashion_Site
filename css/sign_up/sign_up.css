@@ -75,9 +75,24 @@ input{
 }
 
 .check input{
+    height: 18px;
+    width: 18px;
+    border: 1px solid #000000;
     position: relative;
-    z-index: 100;
+    z-index: 150;
+    margin-top: 4px;
 }
+
+.checkbc{
+    background-color: #E7F5F8;
+    width: 278px;
+    height: 26px;
+    position: absolute;
+    z-index: 80;
+    top:0;
+    left:0;
+}
+
 
 .sign-up-on{
     height: 80px;
