@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     background-color: #E7F5F8;
+    margin: 50px 0;
 }
 
 .sign-up-registration{
@@ -14,11 +15,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.sign-up-on{
-    height: 80px;
-    width: 320px;
 }
 
 input{
@@ -35,7 +31,6 @@ input{
 .input{
     position: relative;
     z-index: 100;
-    color: #25202F;
 }
 
 .input button{
@@ -68,4 +63,19 @@ input{
     left: 0;
     z-index: 0;
     width: 280px;
+}
+
+.sign-up-on{
+    height: 80px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up-on-line{
+    height: 2px;
+    width: 320px;
+    margin: 15px 0 9px 0;
+    background-color: #25202F
 }
