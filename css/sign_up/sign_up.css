@@ -65,6 +65,20 @@ input{
     width: 280px;
 }
 
+.check{
+    width: 263px;
+    height: 26px;
+    border: 1px solid #000000;
+    background-color: #E7F5F8;
+    padding-left: 15px;
+    position: relative;
+}
+
+.check input{
+    position: relative;
+    z-index: 100;
+}
+
 .sign-up-on{
     height: 80px;
     width: 320px;
