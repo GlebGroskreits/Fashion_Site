@@ -187,5 +187,20 @@
     max-width: 233px;
     line-height: 32px;
 }
+
+@media(max-width: 767px){
+    .especcialy{
+        padding: 60px 30px;
+        width: calc(100% - 60px);
+    }
+
+    .especcialy-container{
+        flex-direction: column;
+    }
+
+    .especcialy-card{
+        margin: 0;
+    }
+}
 /*-----especcialy-----*/
 
