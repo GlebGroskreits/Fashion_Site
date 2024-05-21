@@ -156,12 +156,17 @@
     justify-content: center;
 }
 
+.especcialy-header > p{
+    letter-spacing: 0.5px;
+}
+
 .especcialy-container{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 60px 30px;
+    gap: 30px 60px;
 }
 
 .especcialy-card{
@@ -174,10 +179,13 @@
 }
 
 .especcialy-card > :nth-child(2){
-    font-weight: 600;}
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
 
 .especcialy-card > :nth-child(3){
-    max-width: 235px;
+    max-width: 233px;
+    line-height: 32px;
 }
 /*-----especcialy-----*/
 
