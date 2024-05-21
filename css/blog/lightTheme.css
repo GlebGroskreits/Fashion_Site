@@ -5,7 +5,7 @@ body,
 }
 
 .burger-menu-line, .burger-menu-icon-line,
-.hello-line, .button-home, .events-card,
+.hello-line, .button-home, .events-card, .especcialy-header,
 .footer-left-container-line, .footer-left-container-line{
     background-color: #22262A;
 }
@@ -17,7 +17,8 @@ header > p:nth-child(1), nav > a > p, .burger-menu > a, .burger-menu-double > p,
     color: #22262A;
 }
 
-.button-home > p, .events-card > p, .events-card-double-text > p{
+.button-home > p, .events-card > p, .events-card-double-text > p,
+.especcialy-header > p{
     color: #FFFFFF;
 }
 
