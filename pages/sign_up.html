@@ -70,6 +70,49 @@
             <p class="text-Poppins24 lng-logout">Log out?</p>
         </div>
     </header>
+    <main>
+        <section class="sign-up">
+            <div class="sign-up-registration">
+                <div id="name" class="input">
+                    <input class="text-Poppins16" type="text" placeholder="Name" required>
+                    <label class="text-RedHat10 input__error lng-whtname-error">The field should not be empty or the number of characters should be from 2 to 20</label>
+                </div>
+                <div id="surname" class="input">
+                    <input class="text-Poppins16" type="text" placeholder="Surname" required>
+                    <label class="text-RedHat10 input__error lng-whtsurname-error">The field should not be empty or the number of characters should be from 2 to 20</label>
+                </div>
+                <div id="patronymic" class="input">
+                    <input class="text-Poppins16" type="text" placeholder="Patronymic" required>
+                    <label class="text-RedHat10 input__error active-nothing lng-whtpatronymic-error">This field is optional</label>
+                </div>
+                <div id="phone" class="input">
+                    <input class="text-Poppins16" type="text" placeholder="Phone" required>
+                    <label class="text-RedHat10 input__error lng-whtphone-error">The field should not be empty. Only on the phone of Belarus! 375 or 80 (+9 number)</label>
+                </div>
+                <div id="email" class="input">
+                    <input class="text-Poppins16" type="text" placeholder="Email" required>
+                    <label class="text-RedHat10 input__error lng-whtemail-error">The field should not be empty. Invalid mail!</label>
+                </div>
+                <div id="nickname" class="input" novalidate>
+                    <input class="text-Poppins16" type="text" placeholder="Nickname" required maxlength="20">
+                    <label class="text-RedHat10 input__error lng-whtnickname-error">The field should not be empty. Characters 2-20!</label>
+                    <button class="text-RedHat10 button-auto lng-random1">random</button>
+                </div>
+                <div id="password" class="input" autocomplete="off" novalidate required>
+                    <input class="text-Poppins16" type="text"  placeholder="Password" required maxlength="20">
+                    <label class="text-RedHat10 input__error lng-whtpassword-error">The field should not be empty. It must contain one: uppercase and uppercase letter, number and symbol. Characters 8-20</label>
+                    <button class="text-RedHat10 button-auto lng-random2">random</button>
+                </div>
+                <div id="passwordRepead" class="input" autocomplete="off" novalidate required>
+                    <input class="text-Poppins16" type="text" placeholder="Repeat password" required maxlength="20">
+                    <label class="text-RedHat10 input__error lng-whtpasswordrepeat-error">Passwords must match</label>
+                </div>
+            </div>
+            <div class="sign-up-on">
+                
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="footer-container">
             <div class="footer-left-container">
