@@ -6,6 +6,7 @@ body,
 
 .burger-menu-line, .burger-menu-icon-line,
 .hello-line, .button-home, .events-card, .especcialy-header,
+.ambassador-header,
 .footer-left-container-line, .footer-left-container-line{
     background-color: #22262A;
 }
@@ -18,7 +19,7 @@ header > p:nth-child(1), nav > a > p, .burger-menu > a, .burger-menu-double > p,
 }
 
 .button-home > p, .events-card > p, .events-card-double-text > p,
-.especcialy-header > p{
+.especcialy-header > p, .ambassador-header > p{
     color: #FFFFFF;
 }
 
