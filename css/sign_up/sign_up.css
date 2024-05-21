@@ -11,6 +11,9 @@
 .sign-up-registration{
     height: 765px;
     width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sign-up-on{
@@ -19,22 +22,44 @@
 }
 
 input{
-    width: 278px;
+    width: 263px;
     height: 24px;
     border: 1px solid #000000;
     background-color: #E7F5F8;
+    position: relative;
+    z-index: 50;
+    padding-left: 15px;
+    outline: none;
 }
 
 .input{
     position: relative;
-
+    z-index: 100;
+    color: #25202F;
 }
+
+.input button{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 150;
+    outline: none;
+    border: 0;
+    background: none;
+}
+
+.sign-up-registration .input:first-child{
+    margin-top: 24px;
+}
+
+.sign-up-registration .input{
+    margin-bottom: 49px;
+}
+
 
 .input::placeholder{
     color: #25202F;
     padding-left: 15px;
-    position: relative;
-    z-index: 100;
 }
 
 .input__error{
@@ -42,4 +67,5 @@ input{
     top: 0;
     left: 0;
     z-index: 0;
+    width: 280px;
 }
