@@ -59,7 +59,8 @@
 
     .events-card{
         height: 110px;
-        width: 568px;
+        max-width: 568px;
+        width: 100%;
         display: flex;
         align-items: center;
     }
@@ -120,6 +121,18 @@
         .events{
             padding: 60px 0;
             width: 100%;
+            align-items: center;
+        }
+
+        .events-card:nth-child(3){
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    @media(max-width: 420px){
+        .events-card > img{
+            display: none;
         }
     }
 /*-----events-----*/
