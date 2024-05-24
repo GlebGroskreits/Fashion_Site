@@ -59,10 +59,11 @@ input{
 
 .input__error{
     position: absolute;
-    top: 0;
+    top: 30px;
     left: 0;
     z-index: 0;
     width: 280px;
+    color: red;
 }
 
 .check{
@@ -84,14 +85,10 @@ input{
     margin-top: 4px;
 }
 
-.checkbc{
-    background-color: #E7F5F8;
-    width: 278px;
-    height: 26px;
+.check > p{
     position: absolute;
-    z-index: 80;
-    top:0;
-    left:0;
+    top: -2px;
+    right: 10px;
 }
 
 
