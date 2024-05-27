@@ -311,6 +311,10 @@
     gap: 60px;
 }
 
+.hello-two.noactive{
+    display: none;
+}
+
 .hello-two > img{
     width: 469px;
     height: 445px;

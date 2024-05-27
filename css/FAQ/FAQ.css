@@ -126,6 +126,10 @@
     align-items: center;
 }
 
+.group.noactive{
+    display: none;
+}
+
 .group-card{
     width: 315px;
     height: 110px;
