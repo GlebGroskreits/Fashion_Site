@@ -38,7 +38,12 @@ function show(){
 }
 
 function sign(){
-    location.href = "../pages/sign_in.html"
+    if(!location.href.includes("sign_up.html")){
+        location.href = "../pages/sign_up.html";
+    }
+    else{
+        location.href = "../pages/sign_in.html";
+    }
 }
 
 function logoutdrop(){
