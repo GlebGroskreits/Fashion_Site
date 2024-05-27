@@ -92,6 +92,11 @@
         width: 70px;
         margin-right: 35px;
         margin-left: auto;
+        transition: all 1s;
+    }
+
+    .events-card > img:hover{
+        transform: rotate(360deg);
     }
 
     .events-card-double-text > :nth-child(1){
