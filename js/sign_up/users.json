@@ -1,0 +1,13 @@
+[
+    {
+        "name" : "Gleb",
+        "surname" : "Groskreits",
+        "patronymic" : "Georgievich",
+        "phone" : "375334543343",
+        "email" : "GlebGroskreits@gmail.com",
+        "birth" : "24.03.2005",
+        "nickname" : "Gleb221",
+        "password" : "Gleb_123",
+        "role" : "admin"
+    }
+]
