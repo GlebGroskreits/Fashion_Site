@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../css/sign_in/lightTheme.css" id="theme">
     <title>Sign in</title>
 </head>
-
 <body>
     <header>
         <p class="text-Poppins28 lng-your-logo">YOUR LOGO</p>
@@ -70,6 +69,24 @@
             <p class="text-Poppins24 lng-logout">Log out?</p>
         </div>
     </header>
+    <main>
+        <section class="sign-in">
+            <div class="sign-in-registration">
+                <div id="nickname" class="input" novalidate>
+                    <input class="text-Poppins16" type="text" placeholder="Nickname" required>
+                    <label class="text-Poppins10 input__error lng-whtnickname-error">Incorrect nickname</label>
+                </div>
+                <div id="password" class="input" autocomplete="off" novalidate required>
+                    <input class="text-Poppins16" type="text"  placeholder="Password" required>
+                    <label class="text-Poppins10 input__error lng-whtpassword-error">Incorrect password</label>
+                </div>
+            </div>
+            <div class="sign-in-on">
+                <div class="sign-up-on-line"></div>
+                <p class="text-Poppins24 lng-sign-up">Sign in</p>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="footer-container">
             <div class="footer-left-container">

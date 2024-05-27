@@ -1,5 +1,5 @@
-.sign-up{
-    height: 845px;
+.sign-in{
+    height: fit-content;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -10,8 +10,8 @@
     border-radius: 30px;
 }
 
-.sign-up-registration{
-    height: 765px;
+.sign-in-registration{
+    height: 145px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -34,21 +34,11 @@ input{
     z-index: 100;
 }
 
-.input button{
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    z-index: 150;
-    outline: none;
-    border: 0;
-    background: none;
-}
-
-.sign-up-registration .input:first-child{
+.sign-in-registration .input:first-child{
     margin-top: 24px;
 }
 
-.sign-up-registration .input{
+.sign-in-registration .input{
     margin-bottom: 49px;
 }
 
@@ -73,33 +63,7 @@ input{
     opacity: 1;
 }
 
-.check{
-    width: 263px;
-    height: 26px;
-    border: 1px solid #000000;
-    background-color: #E7F5F8;
-    padding-left: 15px;
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.check input{
-    height: 18px;
-    width: 18px;
-    border: 1px solid #000000;
-    position: relative;
-    z-index: 150;
-    margin-top: 4px;
-}
-
-.check > p{
-    position: absolute;
-    top: -2px;
-    right: 10px;
-}
-
-
-.sign-up-on{
+.sign-in-on{
     height: 80px;
     width: 320px;
     display: flex;
@@ -107,7 +71,7 @@ input{
     align-items: center;
 }
 
-.sign-up-on > p{
+.sign-in-on > p{
     cursor: pointer;
 }
 
