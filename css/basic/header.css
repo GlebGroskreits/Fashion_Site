@@ -104,7 +104,7 @@ header > :nth-child(3){
     gap: 15px;
     background-color: #FFFFFF;
     transition: all 1s ease-in-out;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .burger-menu.active{
