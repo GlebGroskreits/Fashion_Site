@@ -30,6 +30,7 @@ function show(){
 
     if (activeU) {
         drop.classList.toggle('active');
+        pdropdown[1].textContent = activeU.nickname;
     }
     else{
        location.href = "../pages/home.html"
