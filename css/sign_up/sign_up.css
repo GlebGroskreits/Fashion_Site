@@ -107,6 +107,10 @@ input{
     align-items: center;
 }
 
+.sign-up-on > p{
+    cursor: pointer;
+}
+
 .sign-up-on-line{
     height: 2px;
     width: 320px;
