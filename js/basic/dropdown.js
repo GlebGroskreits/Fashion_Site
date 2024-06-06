@@ -11,7 +11,7 @@ const pdropdown = drop.querySelectorAll('p');
 
 const actuser = localStorage.getItem('ActiveUsser');
 
-if(actuser == ''){
+if(actuser == '' || actruser == null){
     imglogout.addEventListener('click', sign);
     burgerlog.addEventListener('click', sign);
 }else{

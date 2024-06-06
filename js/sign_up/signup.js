@@ -96,11 +96,11 @@ function setnewUser(){
         name: data_input[0].value,
         surname : data_input[1].value,
         patronymic: data_input[2].value,
-        phone: data_input[3].value,
-        email: data_input[4].value,
-        birth: data_input[5].value + '.' + data_input[6].value + '.' + data_input[7].value,
-        nickname: data_input[8].value,
-        password: data_input[9].value,
+        birth: data_input[3].value,
+        phone: data_input[4].value,
+        email: data_input[5].value,
+        nickname: data_input[6].value,
+        password: data_input[7].value,
         role: 'user'
     }
 
@@ -116,7 +116,7 @@ window.addEventListener('DOMContentLoaded', async function() {
     const storedData = localStorage.getItem('Usser');
     user = JSON.parse(storedData);
 
-    if(user === null){
+    if(user == null || user == ''){
         user = await getUser();
 
         const usersString = JSON.stringify(user);
