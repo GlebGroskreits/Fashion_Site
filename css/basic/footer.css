@@ -1,0 +1,232 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+}
+
+.footer-container{
+    max-width: 1080px;
+    width: calc(100% - 200px);
+    height: fit-content;
+    padding: 120px 100px 95px 100px;
+    gap: 40px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-container.noactive{
+    display: none;
+}
+
+.footer-left-container{
+    height: fit-content;
+    width: 100%;
+    max-width: 410px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left-container > p:nth-child(1){
+    letter-spacing: 0.5px;
+}
+
+.footer-left-container > p:nth-child(2){
+    margin: 15px 0 31px 0;
+    max-width: 410px;
+}
+
+.footer-left-container > p:nth-child(4){
+    margin: 20px 0 5px 0;
+}
+
+.footer-left-container > p:nth-child(6){
+    margin: 5px 0 13px 0;
+}
+
+.footer-left-container-line{
+    width: 237px;
+    height: 1px;
+}
+
+.footer-left-container-link{
+    width: 70px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left-container-link > img{
+    height: 15px;
+    width: 15px;
+}
+
+.footer-right-container{
+    height: fit-content;
+    width: 100%;
+    max-width: 530px;
+}
+
+.footer-right-container > p:nth-child(1){
+    letter-spacing: 0.7px;
+}
+
+.footer-right-container-input{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin: 32px 0 74px 0;
+}
+
+.footer-right-container-input input{
+    border: 0;
+    outline: 0;
+    height: 45px;
+    width: calc(100% - 27px);
+    background-color: none;
+    padding-left: 25px;
+    border-radius: 5px;
+}
+
+.footer-right-container input::placeholder {
+    color: #000000;
+}
+
+.footer-right-container-input > p{
+    position: absolute;
+    top: 11px;
+    right: 26px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.footer-right-container-text{
+    height: fit-content;
+    width: 100%;
+    max-width: 530px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-right-container-text > :nth-child(2){
+    margin-left: 25px;
+}
+
+.footer-right-container-text-contant{
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.footer-right-container-text-contant > p:first-child{
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.footer-log{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7F5F8;
+}
+
+.footer-log > p{
+    letter-spacing: 0.1px;
+}
+
+.footer-log > p:last-child{
+    display: none;
+}
+
+.footer-log > p:first-child.noactive{
+    display: none;
+}
+
+.footer-log > p:last-child.active{
+    display: flex;
+}
+
+@media(max-width: 1179px){
+    .footer-container{
+        padding: 75px 100px 95px 100px;
+    }
+
+    .footer-right-container{
+        max-width: 100%;
+    }
+
+    .footer-right-container-input{
+        width: calc(100% - 38px);
+    }
+}
+
+@media(max-width: 767px){
+    .footer-container{
+        padding: 60px 5px 30px 5px;
+        width: calc(100% - 10px);
+    }
+
+    .footer-container{
+        justify-content: center;
+    }
+
+    .footer-left-container{
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-right-container-input{
+        width: 100%
+    }
+
+    .footer-right-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-right-container-text{
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .footer-right-container-text-contant{
+        align-items: center;
+    }
+
+    .footer-right-container-text > :nth-child(2){
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 458px){
+    .footer-right-container-text{
+        flex-direction: column;
+    }
+
+    .footer-right-container-input{
+        margin: 31px 0 40px 0;
+    }
+
+    .footer-log > p{
+        max-width: 280px;
+        text-align: center;
+    }
+    
+    .footer-log > p:first-child{
+        max-width: 288px;
+    }
+
+    .footer-log > p:last-child{
+        max-width: 295px;
+    }
+}

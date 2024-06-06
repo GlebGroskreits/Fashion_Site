@@ -1,0 +1,166 @@
+{
+    "your-logo":{
+       "ru":"ВАШЕ ЛОГО",
+       "en":"YOUR LOGO"
+    },
+    "home":{
+        "ru":"главная",
+        "en":"HOME"
+    },
+    "shop":{
+        "ru":"магазин",
+        "en":"SHOP"
+    },
+    "faq":{
+        "ru":"вопросы",
+        "en":"FAQ"
+    },
+    "blog":{
+        "ru":"блог",
+        "en":"BLOG"
+    },
+    "home1":{
+        "ru":"главная",
+        "en":"HOME"
+    },
+    "shop1":{
+        "ru":"магазин",
+        "en":"SHOP"
+    },
+    "faq1":{
+        "ru":"вопросы",
+        "en":"FAQ"
+    },
+    "blog1":{
+        "ru":"блог",
+        "en":"BLOG"
+    },
+    "english":{
+        "ru":"английский",
+        "en":"English"
+    },
+    "russian":{
+        "ru":"русский",
+        "en":"Russian"
+    },
+    "dark":{
+        "ru":"темная",
+        "en":"Dark"
+    },
+    "light":{
+        "ru":"светлая",
+        "en":"Light"
+    },
+    "signin":{
+        "ru":"вход",
+        "en":"Sign in"
+    },
+    "signup":{
+        "ru":"регистрация",
+        "en":"Sign up"
+    },
+    "goodbye":{
+        "ru":"Прощай(",
+        "en":"GoodBye"
+    },
+    "logout":{
+        "ru":"Покинуть?",
+        "en":"Log out?"
+    },
+    "whtnickname-error":{
+        "ru":"Неверный никнейм",
+        "en":"Incorrect nickname"
+    },
+    "whtpassword-error":{
+        "ru":"Неверный пароль",
+        "en":"Incorrect password"
+    },
+    "sign-in":{
+        "ru":"Вход",
+        "en":"Sign in"
+    },
+    "your-logo1":{
+        "ru":"ВАШЕ ЛОГО",
+        "en":"YOUR LOGO"
+    },
+    "we-earned":{
+        "ru":"Мы заслужили репутацию профессионалов дела. Позвольте нам вывести ваш магазин на уровень успеха!",
+        "en":"We earned a reputation of being good at what we do. Let us take your online shop to new dimension in success!"
+    },
+    "comilla":{
+        "ru":"Комила, Бангладеш",
+        "en":"Comilla, Bangladesh 3500"
+    },
+    "recive-email":{
+        "ru":"СОБЫТИЯ ПО ПОЧТЕ",
+        "en":"RECIVE EMAIL UPDATES"
+    },
+    "SHOP2":{
+        "ru":"Магазин",
+        "en":"SHOP"
+    },
+    "shop3":{
+        "ru":"магазин",
+        "en":"Shop"
+    },
+    "collection":{
+        "ru":"коллекции",
+        "en":"Collection"
+    },
+    "outlet":{
+        "ru":"выходное",
+        "en":"Outlet"
+    },
+    "lookbook":{
+        "ru":"Лукбук",
+        "en":"Lookbook"
+    },
+    "HELP":{
+        "ru":"Помощь",
+        "en":"HELP"
+    },
+    "FAQ3":{
+        "ru":"вопросы",
+        "en":"FAQ"
+    },
+    "privecy-policy":{
+        "ru":"наша политика",
+        "en":"Privecy Policy"
+    },
+    "tearms":{
+        "ru":"Разрывы и условия",
+        "en":"Tearms and conditions"
+    },
+    "return":{
+        "ru":"Возврат и обмен",
+        "en":"Return and Exchanges"
+    },
+    "ABOUT3":{
+        "ru":"О нас",
+        "en":"ABOUT"
+    },
+    "journal":{
+        "ru":"журнал",
+        "en":"Journal"
+    },
+    "our-story3":{
+        "ru":"история",
+        "en":"Our Story"
+    },
+    "contact":{
+        "ru":"контакты",
+        "en":"Contact"
+    },
+    "store-location":{
+        "ru":"местоположение",
+        "en":"Store Location"
+    },
+    "copyright":{
+        "ru":"Авторское право © 2020 . Название компании, все права защищены",
+        "en":"Copyright © 2020 . Your company name  All rights reserved"
+    },
+    "logged":{
+        "ru":"Вы вошли в систему как администратор!",
+        "en":"You are logged in as an administrator!"
+    }
+}

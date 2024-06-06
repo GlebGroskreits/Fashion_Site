@@ -1,0 +1,238 @@
+{
+    "your-logo":{
+       "ru":"ВАШЕ ЛОГО",
+       "en":"YOUR LOGO"
+    },
+    "home":{
+        "ru":"главная",
+        "en":"HOME"
+    },
+    "shop":{
+        "ru":"магазин",
+        "en":"SHOP"
+    },
+    "faq":{
+        "ru":"вопросы",
+        "en":"FAQ"
+    },
+    "blog":{
+        "ru":"блог",
+        "en":"BLOG"
+    },
+    "home1":{
+        "ru":"главная",
+        "en":"HOME"
+    },
+    "shop1":{
+        "ru":"магазин",
+        "en":"SHOP"
+    },
+    "faq1":{
+        "ru":"вопросы",
+        "en":"FAQ"
+    },
+    "blog1":{
+        "ru":"блог",
+        "en":"BLOG"
+    },
+    "english":{
+        "ru":"английский",
+        "en":"English"
+    },
+    "russian":{
+        "ru":"русский",
+        "en":"Russian"
+    },
+    "dark":{
+        "ru":"темная",
+        "en":"Dark"
+    },
+    "light":{
+        "ru":"светлая",
+        "en":"Light"
+    },
+    "signin":{
+        "ru":"вход",
+        "en":"Sign in"
+    },
+    "signup":{
+        "ru":"регистрация",
+        "en":"Sign up"
+    },
+    "goodbye":{
+        "ru":"Прощай(",
+        "en":"GoodBye"
+    },
+    "logout":{
+        "ru":"Покинуть?",
+        "en":"Log out?"
+    },
+    "new-trand":{
+        "ru":"Новый тренд",
+        "en":"New trand"
+    },
+    "new-collection":{
+        "ru":"Новая коллекция",
+        "en":"NEW COLLECTION"
+    },
+    "exclusive":{
+        "ru":"Экслюзивное качество вещей",
+        "en":"Exclusive quality goods"
+    },
+    "shop-now":{
+        "ru":"КУПИ СЕЙЧАС",
+        "en":"SHOP NOW"
+    },
+    "promotion":{
+        "ru":"Акции",
+        "en":"Promotion"
+    },
+    "frequent":{
+        "ru":"Частые рекламные акции для вашего гардероба",
+        "en":"Frequent promotions for your wardrobe"
+    },
+    "3-days":{
+        "ru":"3 дня для возврата",
+        "en":"3 days to return"
+    },
+    "if-you-are":{
+        "ru":"Если вы разочарованы нашим качеством",
+        "en":"If you are disappointed with our quality"
+    },
+    "24-7-our":{
+        "ru":"24/7 наш сервис",
+        "en":"24/7 our service"
+    },
+    "our-support":{
+        "ru":"Наша поддержка работает всегда в режиме онлайн",
+        "en":"Our support is up and running and always online"
+    },
+    "about-us":{
+        "ru":"О нас",
+        "en":"About us"
+    },
+    "who-we-are":{
+        "ru":"Кто мы?",
+        "en":"Who we are?"
+    },
+    "we-are-one":{
+        "ru":"Мы являемся одной из крупнейших компаний. Наши изделия изготавливаются из качественных материалов, а их посадка подчеркнет ваши особенности",
+        "en":"We are one of the largest companies in the market. Our products are made only from quality materials and their fit will emphasise your features"
+    },
+    "catalogue":{
+        "ru":"Каталог",
+        "en":"Сatalogue"
+    },
+    "brand":{
+        "ru":"Бренд",
+        "en":"Brand"
+    },
+    "our-brand":{
+        "ru":"Наш бренд",
+        "en":"Our brand"
+    },
+    "our-products":{
+        "ru":"Наши изделия - ювелирным украшениям, подчеркивающим ваш вкус, характер и четкость ваших действий в любой момент",
+        "en":"Our products are like jewellery, emphasising your taste, character and the clarity of your actions at any given moment"
+    },
+    "catalogue1":{
+        "ru":"Каталог",
+        "en":"Сatalogue"
+    },
+    "sorry":{
+        "ru":"Прости",
+        "en":"Sorry"
+    },
+    "our-store":{
+        "ru":"Наш магазин только что открылся, некоторые функции еще недоступны",
+        "en":"Our store has just opened, some features are not available yet"
+    },
+    "reviews":{
+        "ru":"Отзывы",
+        "en":"Reviews"
+    },
+    "your-logo1":{
+        "ru":"ВАШЕ ЛОГО",
+        "en":"YOUR LOGO"
+    },
+    "we-earned":{
+        "ru":"Мы заслужили репутацию профессионалов дела. Позвольте нам вывести ваш магазин на уровень успеха!",
+        "en":"We earned a reputation of being good at what we do. Let us take your online shop to new dimension in success!"
+    },
+    "comilla":{
+        "ru":"Комила, Бангладеш",
+        "en":"Comilla, Bangladesh 3500"
+    },
+    "recive-email":{
+        "ru":"СОБЫТИЯ ПО ПОЧТЕ",
+        "en":"RECIVE EMAIL UPDATES"
+    },
+    "SHOP2":{
+        "ru":"Магазин",
+        "en":"SHOP"
+    },
+    "shop3":{
+        "ru":"магазин",
+        "en":"Shop"
+    },
+    "collection":{
+        "ru":"коллекции",
+        "en":"Collection"
+    },
+    "outlet":{
+        "ru":"выходное",
+        "en":"Outlet"
+    },
+    "lookbook":{
+        "ru":"Лукбук",
+        "en":"Lookbook"
+    },
+    "HELP":{
+        "ru":"Помощь",
+        "en":"HELP"
+    },
+    "FAQ3":{
+        "ru":"вопросы",
+        "en":"FAQ"
+    },
+    "privecy-policy":{
+        "ru":"наша политика",
+        "en":"Privecy Policy"
+    },
+    "tearms":{
+        "ru":"Разрывы и условия",
+        "en":"Tearms and conditions"
+    },
+    "return":{
+        "ru":"Возврат и обмен",
+        "en":"Return and Exchanges"
+    },
+    "ABOUT3":{
+        "ru":"О нас",
+        "en":"ABOUT"
+    },
+    "journal":{
+        "ru":"журнал",
+        "en":"Journal"
+    },
+    "our-story3":{
+        "ru":"история",
+        "en":"Our Story"
+    },
+    "contact":{
+        "ru":"контакты",
+        "en":"Contact"
+    },
+    "store-location":{
+        "ru":"местоположение",
+        "en":"Store Location"
+    },
+    "copyright":{
+        "ru":"Авторское право © 2020 . Название компании, все права защищены",
+        "en":"Copyright © 2020 . Your company name  All rights reserved"
+    },
+    "logged":{
+        "ru":"Вы вошли в систему как администратор!",
+        "en":"You are logged in as an administrator!"
+    }
+}
